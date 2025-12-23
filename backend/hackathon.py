@@ -179,7 +179,7 @@ client = InferenceClient(base_url="https://router.huggingface.co/v1",
                          api_key="HUGGING_FACE_API")
 vision_client = InferenceClient(
     provider="novita",
-    api_key="sk_zihiaxdAm5WIdHv66qHNn2B8kubi78Rjyd94Y_QqiwM",
+    api_key="API_KEY",
 )
 
 from huggingface_hub import login
