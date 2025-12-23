@@ -430,7 +430,7 @@ DONATION_INFO = "\nPhone: +91-XXXXXXXXXX\nDonation form: https://www.y4d.ngo/don
 
 
 def answer_question(question: str = "", image_path: str = None, audio_path: str = None) -> str:
-    detected = single_detection(question, api_key="1a3e2a85b03d581b6f2991f2f5f33bbc")
+    detected = single_detection(question, api_key="API_KEY")
 
     # Translate question if not English
     if detected != 'en':
